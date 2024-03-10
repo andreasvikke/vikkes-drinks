@@ -1,0 +1,24 @@
+<div class="columns is-mobile is-multiline">
+    <div class="column is-half-mobile" style="border-right: 1px solid #dbdbdb">
+        <i class="fas fa-hourglass-half fa-lg"></i>
+        <div></div>
+        <p class="has-text-weight-bold is-size-6">Prep time</p>
+        <div></div>
+        {{ .Params.Prep_time | default "---"}} Minutes
+    </div>
+    <div class="column is-half-mobile" style="border-right: 1px solid #dbdbdb">
+        <i class="fas fa-cocktail fa-lg"></i>
+        <div></div>
+        <p class="has-text-weight-bold is-size-6">Niveau</p>
+        <div></div>
+        {{ .Params.Level | default "---"}} <br/>
+    </div>
+    <div class="column is-half-mobile" style="border-right: 1px solid #dbdbdb">
+        <i class="fas fa-toolbox fa-lg"></i>
+        <div></div>
+        <p class="has-text-weight-bold is-size-6">Udstyr</p>
+        {{ range .Params.Equipment }}
+        - {{ . }} <br/>
+        {{ end }}
+    </div>    
+</div>
