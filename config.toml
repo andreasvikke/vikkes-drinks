@@ -39,7 +39,7 @@ fileName = "/images/favicon.ico" #your favicon here if you wish to change it.
     name = "Mad" # change to w/e you want, tags or categories works best
     pre = "fas fa-utensils" #icon, change if you would prefer a different icon
     url = "https://mad.andreasvikke.dk"
-    weight = 2
+    weight = 3
 
 
 # Print output just creates a special route for a print view
