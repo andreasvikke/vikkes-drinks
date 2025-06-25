@@ -1,7 +1,7 @@
 ---
 draft: false
 title: "Grønt Guld"
-recipe_image: /images/grønt-guld.jpg
+recipe_image: /images/grønt-guld.png
 image_width: 512
 tags: ["Nordisk", "Gin", "Snaps", "Eksperimentel"]
 prep_time: 7
